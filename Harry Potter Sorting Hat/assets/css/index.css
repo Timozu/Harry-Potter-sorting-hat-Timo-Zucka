@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+#background {
+    background: rgb(216,222,255);
+    background: linear-gradient(30deg, rgba(216,222,255,1) 0%, rgba(168,177,232,1) 17%, rgba(161,113,209,1) 100%);
+    background: linear-gradient(30deg, rgb(253, 223, 223) 0%, rgb(250, 201, 201) 17%, rgb(248, 169, 169) 100%);
+}
+#body {
+    position: relative;
+    border-radius: 25px;
+    font-size: 50px;
+}
+#new-user-button {
+    margin-top: 25px;
+}
+#logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    text-align: center;
+}
+#footer {
+    padding-top: 40px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

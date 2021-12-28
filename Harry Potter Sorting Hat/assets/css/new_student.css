@@ -1,0 +1,15 @@
+#logo {
+  margin: 0;
+}
+#footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

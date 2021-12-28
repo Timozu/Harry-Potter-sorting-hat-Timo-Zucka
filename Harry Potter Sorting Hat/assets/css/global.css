@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #dadada;
+    font-family: 'Open Sans', sans-serif;
+}
+#background {
+    border-radius: 25px;
+    width: 450px;
+    margin: 0 auto;
+    background-color: white;
+}
+#header {
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(216,222,255);
+    background: linear-gradient(30deg, rgb(253, 223, 223) 0%, rgb(250, 201, 201) 17%, rgb(248, 169, 169) 100%);
+}
+#body {
+    min-height: 600px;
+    padding: 10px 20px;
+}
+#footer {
+    border-radius: 25px;
+    padding: 20px 20px 50px 20px;
+    min-height: 134px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+input, select, button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    min-height: 30px;
+    margin: 10px 20px 20px 20px;
+}
+input, select {
+    border-radius: 5px;
+}
+input[type=number] {
+    min-width: 30px;
+    width: 80px;
+}
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(161, 113, 209);
+    color: rgb(209, 179, 113);
+    color: rgb(233, 140, 140);
+}
+a.alt {
+    color:white;
+}
+a.no-underline {
+    text-decoration: none;
+}
+a.no-underline:hover {
+    text-decoration: underline;
+}
+
+input:invalid {
+    border: 1px dashed rgb(219, 138, 138);
+}
+input:invalid.no-validate {
+    border: default;
+}
+
+button, input[type=submit], .button-style-label {
+    cursor: pointer;
+    padding: 10px 45px;
+    color:white;
+    background-color: rgb(161, 113, 209);
+    background-color: rgb(209, 179, 113);
+    background-color: rgb(233, 140, 140);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+button.alt, input[type=submit].alt, .button-style-label.alt {
+    color: rgb(161, 113, 209);
+    color: rgb(209, 179, 113);
+    color: rgb(233, 140, 140);
+    background-color: white;
+}
+button:hover, input[type=submit]:hover, .button-style-label:hover {
+    box-shadow: 0 6px 14px rgba(0,0,0,0.25), 0 7px 7px rgba(0,0,0,0.22);
+}
+.button-style-label {
+    padding: 20px;
+    margin: 0 30px;
+    border-radius: 50%;
+}
+#home-icon, .icon {
+    height: 25px;
+    display: absolute;
+    left: 50%;
+    top: 50%;
+}
+.icon-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#home-icon-wrapper, .icon-wrapper {
+    display: relative;
+}

@@ -1,0 +1,66 @@
+#profile-picture {
+    width: 250px;
+}#profile-picture-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#body.rating-body {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#logo {
+    margin: 0;
+}
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    padding-top: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sorting-button {
+    height: 75px;
+    width: 75px
+}
+#gryffindor-button {
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/gryffindor.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#slytherin-button {
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/slytherin.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hufflepuff-button {
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/hufflepuff.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ravenclaw-button {
+    height: 100px;
+    width: 100px;
+    background-image: url("../images/ravenclaw.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
